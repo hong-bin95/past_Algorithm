@@ -1,4 +1,4 @@
-package baekjoon;
+package java.algorithm;
 
 public class 고양이_10171 {
 

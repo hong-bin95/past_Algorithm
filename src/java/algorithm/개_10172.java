@@ -1,4 +1,4 @@
-package baekjoon;
+package java.algorithm;
 
 public class 개_10172 {
 	public static void main(String[] args) {

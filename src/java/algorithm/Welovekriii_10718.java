@@ -1,4 +1,4 @@
-package baekjoon;
+package java.algorithm;
 
 public class Welovekriii_10718 {
 
