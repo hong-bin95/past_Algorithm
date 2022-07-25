@@ -1,18 +1,18 @@
-package java.algorithm;
+package algorithm;
 
 import java.util.Scanner;
 
-public class aDivisionB_1008 {
+public class aMultipleB_10998 {
 
 	private static Scanner sc;
 
 	public static void main(String[] args) {
 		sc = new Scanner(System.in);
 
-		double a = sc.nextInt();
-		double b = sc.nextInt();
+		int a = sc.nextInt();
+		int b = sc.nextInt();
 		
-		System.out.println(a/b);
+		System.out.println(a*b);
 
 	}
 

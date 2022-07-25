@@ -1,4 +1,4 @@
-package java.algorithm;
+package algorithm;
 
 public class 고양이_10171 {
 

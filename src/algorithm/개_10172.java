@@ -1,4 +1,4 @@
-package java.algorithm;
+package algorithm;
 
 public class 개_10172 {
 	public static void main(String[] args) {

@@ -1,8 +1,8 @@
-package java.algorithm;
+package algorithm;
 
 import java.util.Scanner;
 
-public class aMultipleB_10998 {
+public class aPlusB_1000 {
 
 	private static Scanner sc;
 
@@ -12,7 +12,7 @@ public class aMultipleB_10998 {
 		int a = sc.nextInt();
 		int b = sc.nextInt();
 		
-		System.out.println(a*b);
+		System.out.println(a+b);
 
 	}
 

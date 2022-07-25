@@ -1,4 +1,4 @@
-package java.algorithm;
+package algorithm;
 
 public class Welovekriii_10718 {
 
