@@ -17,9 +17,10 @@ A와 B가 같은 경우에는 '=='를 출력한다.
 
 public class 두수비교하기_1330 {
 
+	private static Scanner sc;
+
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		Scanner sc = new Scanner(System.in);
+		sc = new Scanner(System.in);
 		
 		int A = sc.nextInt();
 		int B = sc.nextInt();
