@@ -1,6 +1,6 @@
-package algorithm;
+package algorithm.readWrite;
 
-public class 새싹_25083 {
+public class bj25083 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

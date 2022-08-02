@@ -1,15 +1,15 @@
-package algorithm;
+package algorithm.FourOperations;
 
 import java.util.Scanner;
 
-public class 불교_18108 {
+public class bj10926 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		@SuppressWarnings("resource")
 		Scanner sc = new Scanner(System.in);
-		int b = sc.nextInt();
-		
-		System.out.println(b - 543);
+		String id = sc.nextLine();
+		System.out.println(id + "??!");
 	}
 
 }

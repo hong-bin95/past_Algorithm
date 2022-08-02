@@ -1,18 +1,18 @@
-package algorithm;
+package algorithm.FourOperations;
 
 import java.util.Scanner;
 
-public class aDivisionB_1008 {
+public class bj1000 {
 
 	private static Scanner sc;
 
 	public static void main(String[] args) {
 		sc = new Scanner(System.in);
 
-		double a = sc.nextInt();
-		double b = sc.nextInt();
+		int a = sc.nextInt();
+		int b = sc.nextInt();
 		
-		System.out.println(a/b);
+		System.out.println(a+b);
 
 	}
 

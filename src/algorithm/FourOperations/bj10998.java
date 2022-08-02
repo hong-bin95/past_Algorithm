@@ -1,8 +1,8 @@
-package algorithm;
+package algorithm.FourOperations;
 
 import java.util.Scanner;
 
-public class aMinusB_1001 {
+public class bj10998 {
 
 	private static Scanner sc;
 
@@ -12,7 +12,7 @@ public class aMinusB_1001 {
 		int a = sc.nextInt();
 		int b = sc.nextInt();
 		
-		System.out.println(a-b);
+		System.out.println(a*b);
 
 	}
 

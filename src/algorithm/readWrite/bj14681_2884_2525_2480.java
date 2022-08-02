@@ -1,8 +1,8 @@
-package algorithm;
+package algorithm.readWrite;
 
 import java.util.*;
 
-public class 조건문_14681_2884_2525_2480 {
+public class bj14681_2884_2525_2480 {
 
 	private static Scanner sc;
 

@@ -1,4 +1,4 @@
-package algorithm;
+package algorithm.conditional;
 
 import java.util.Scanner;
 
@@ -15,7 +15,7 @@ import java.util.Scanner;
 출력
 첫째 줄에 윤년이면 1, 아니면 0을 출력한다.
  * */
-public class 윤년_2753 {
+public class bj2753 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

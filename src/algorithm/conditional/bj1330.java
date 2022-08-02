@@ -1,4 +1,4 @@
-package algorithm;
+package algorithm.conditional;
 
 import java.util.Scanner;
 
@@ -15,7 +15,7 @@ A가 B보다 작은 경우에는 '<'를 출력한다.
 A와 B가 같은 경우에는 '=='를 출력한다.
 */
 
-public class 두수비교하기_1330 {
+public class bj1330 {
 
 	private static Scanner sc;
 

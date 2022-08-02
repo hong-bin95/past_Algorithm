@@ -1,8 +1,8 @@
-package algorithm;
+package algorithm.FourOperations;
 
 import java.util.Scanner;
 
-public class 곱셈_2588 {
+public class bj2588 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

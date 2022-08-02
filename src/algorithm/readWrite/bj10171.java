@@ -1,6 +1,6 @@
-package algorithm;
+package algorithm.readWrite;
 
-public class 고양이_10171 {
+public class bj10171 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

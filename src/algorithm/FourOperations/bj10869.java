@@ -1,8 +1,8 @@
-package algorithm;
+package algorithm.FourOperations;
 
 import java.util.Scanner;
 
-public class 사칙연산_10869 {
+public class bj10869 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

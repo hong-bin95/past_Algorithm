@@ -1,6 +1,6 @@
-package algorithm;
+package algorithm.FourOperations;
 
-public class Welovekriii_10718 {
+public class bj10718 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

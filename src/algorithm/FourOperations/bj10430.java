@@ -1,8 +1,8 @@
-package algorithm;
+package algorithm.FourOperations;
 
 import java.util.Scanner;
 
-public class 나머지_10430 {
+public class bj10430 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
