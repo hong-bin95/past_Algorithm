@@ -48,7 +48,7 @@ public class Main_bj_11659_구간합구하기4_서울_20반_박홍빈 {
 		}
 		
 		
-		for(int n = 1 ; n < arr.length; n++) {
+		for(int n = 1 ; n <= arr.length; n++) {
 			arr_sun[n] += arr_sun[n - 1] + arr[n-1];
 		}		
 		
@@ -62,9 +62,9 @@ public class Main_bj_11659_구간합구하기4_서울_20반_박홍빈 {
 			
 			
 			// 1 3
-			// I = 1, j = 33
+			// I = 1, j = 3
 			// 
-			int result = arr_sun[j-1] - arr_sun[i-1];
+			int result = arr_sun[j] - arr_sun[i-1];
 			
 			sb.append(result + "\n");
 			
