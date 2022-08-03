@@ -17,9 +17,10 @@ import java.util.Scanner;
  * */
 public class bj2753 {
 
+	private static Scanner sc;
+
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		Scanner sc = new Scanner(System.in);
+		sc = new Scanner(System.in);
 		
 		int year = sc.nextInt();
 		

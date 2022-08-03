@@ -2,7 +2,7 @@ package algorithm.readWrite;
 
 import java.util.*;
 
-public class bj14681_2884_2525_2480 {
+public class bj14681_2884_2480 {
 
 	private static Scanner sc;
 
@@ -64,6 +64,8 @@ public class bj14681_2884_2525_2480 {
 }
 
 class _14681{
+	private Scanner sc;
+
 	void clear() {
 		/*14681
 		 * 흔한 수학 문제 중 하나는 주어진 점이 어느 사분면에 속하는지 알아내는 것이다. 사분면은 아래 그림처럼 1부터 4까지 번호를 갖는다. 
@@ -79,7 +81,7 @@ class _14681{
 			출력
 			점 (x, y)의 사분면 번호(1, 2, 3, 4 중 하나)를 출력한다.	*/
 		
-		Scanner sc = new Scanner(System.in);
+		sc = new Scanner(System.in);
 		int x = sc.nextInt();
 		int y = sc.nextInt();
 		
