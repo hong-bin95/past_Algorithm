@@ -10,7 +10,7 @@ public class Main_bj_2961_도영이가_만든_맛있는_음식_20반_박홍빈 {
 	static boolean[] visited;
 	static int min;
 	
-	static void dfs(int index) {
+	static void subset(int index) {
 		if(index == N) {
 			int S = 1;
 			int B = 0;
@@ -32,9 +32,9 @@ public class Main_bj_2961_도영이가_만든_맛있는_음식_20반_박홍빈 {
 		}		
 
 		visited[index] = true;
-		dfs(index+1);
+		subset(index+1);
 		visited[index] = false;
-		dfs(index+1);
+		subset(index+1);
 		
 	}
 	
@@ -58,7 +58,7 @@ public class Main_bj_2961_도영이가_만든_맛있는_음식_20반_박홍빈 {
 			arr[i][1] = Integer.parseInt(st.nextToken());
 		}
 		
-		dfs(0);
+		subset(0);
 		
 		System.out.println(min);
 		
