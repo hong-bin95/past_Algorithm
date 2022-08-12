@@ -9,6 +9,19 @@ public class Main_bj_2961_도영이가_만든_맛있는_음식_20반_박홍빈 {
 	static int[][] arr;
 	static boolean[] visited;
 	static int min;
+
+	static ArrayList<Integer> slist;
+	static ArrayList<Integer> blist; 
+	
+	static void dfs(int index, int start, int total) {
+		if(index == total) {
+			
+		}
+		
+		for(int i = start; i < N; i++) {
+			
+		}
+	}
 	
 	static void subset(int index) {
 		if(index == N) {

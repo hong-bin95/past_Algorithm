@@ -17,22 +17,18 @@ public class Main_bj_17406_배열_돌리기_4_서울_20반_박홍빈 {
 		
 		int temp1,temp2,temp3,temp4;
 		
+		temp1 = temp[sx][sy];
+		temp2 = temp[ex][sy];
+		temp3 = temp[ex][ey];
+		temp4 = temp[sx][ey];
+		
 		// 오른쪽으로 이동
 		for(int i = sy; i < ey; i++) {
-			
+			temp[sx][i-1] = temp[sx][i]; 
 		}
 		// 아래로 이동
-		for(int i = sx; i < ex; i++) {
-			
-		}
 		// 왼쪽으로 이동
-		for(int i = ey; i > sy; i--) {
-			
-		}
 		// 위로 이동
-		for(int i = ex; i > sx; i--) {
-	
-		}
 	}
 	
 	public static void main(String[] args) throws Exception {
@@ -60,6 +56,7 @@ public class Main_bj_17406_배열_돌리기_4_서울_20반_박홍빈 {
 			st = new StringTokenizer(str);
 			for(int j = 0 ; j < M ; j++) {
 				arr[i][j] = Integer.parseInt(st.nextToken());
+				temp[i][j] = Integer.parseInt(st.nextToken());
 			}
 		}
 		
