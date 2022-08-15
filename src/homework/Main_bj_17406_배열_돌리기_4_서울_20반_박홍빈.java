@@ -7,6 +7,7 @@ import java.util.StringTokenizer;
 
 public class Main_bj_17406_배열_돌리기_4_서울_20반_박홍빈 {
 
+<<<<<<< HEAD
 
     static int[][] board;
     static int[][] rotation;
@@ -90,6 +91,31 @@ public class Main_bj_17406_배열_돌리기_4_서울_20반_박홍빈 {
         }    
         rotate(lx + 1, ly + 1, rx - 1, ry - 1, copy);
     }
+=======
+	static int[][] arr;
+	static int[][] temp;
+	static int [][] K_List;
+	
+	static int C;
+	
+	static void 회전(int sx, int sy, int ex, int ey) {
+		
+		int temp1,temp2,temp3,temp4;
+		
+		temp1 = temp[sx][sy];
+		temp2 = temp[ex][sy];
+		temp3 = temp[ex][ey];
+		temp4 = temp[sx][ey];
+		
+		// 오른쪽으로 이동
+		for(int i = sy; i < ey; i++) {
+			temp[sx][i-1] = temp[sx][i]; 
+		}
+		// 아래로 이동
+		// 왼쪽으로 이동
+		// 위로 이동
+	}
+>>>>>>> 82141eee16448bced8f14b276c8d5ab40c49190d
 	
 	public static void main(String[] args) throws Exception {
 		System.setIn(new FileInputStream("res/bj17406.txt"));
@@ -108,8 +134,14 @@ public class Main_bj_17406_배열_돌리기_4_서울_20반_박홍빈 {
 		for(int i = 0 ; i< n; i++) {
 			str = br.readLine();
 			st = new StringTokenizer(str);
+<<<<<<< HEAD
 			for(int j = 0 ; j < m; j++) {
 				board[i][j] = Integer.parseInt(st.nextToken());
+=======
+			for(int j = 0 ; j < M ; j++) {
+				arr[i][j] = Integer.parseInt(st.nextToken());
+				temp[i][j] = Integer.parseInt(st.nextToken());
+>>>>>>> 82141eee16448bced8f14b276c8d5ab40c49190d
 			}
 		}
 		

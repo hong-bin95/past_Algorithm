@@ -27,37 +27,16 @@ public class bj16139 {
 			
 			StringTokenizer st = new StringTokenizer(S);
 			char c = st.nextToken().charAt(0);
+			int start = Integer.parseInt(st.nextToken());
+			int end = Integer.parseInt(st.nextToken());
 			
-			if(i == 0) {
-				if(arr[0] == c) {
-					sum_arr[0] = 1;
-				}
-				else {
-					sum_arr[0] = 0;
-				}
-				for(int j = 1 ; j < arr.length ; j++) {
-					if(arr[j] == c) {
-						sum_arr[j] = sum_arr[j-1] + 1;
-					}
-					else {			
-						sum_arr[j] = sum_arr[j-1];
-					}
-				}		
+			sum_arr[0] = arr[0] == c ? 1 : 0;
+			
+			for(int j = 1 ; j < arr.length ; j++) {
+				sum_arr[j] = arr[j] == c ? sum_arr[j-1] + 1 : sum_arr[j-1];
 			}
 			
-			int l = Integer.parseInt(st.nextToken());
-			int r = Integer.parseInt(st.nextToken());
-			
-			int ll;
-			
-			if(l == 0) {
-				ll = sum_arr[0];
-			}
-			else {
-				ll = sum_arr[l-1];
-			}
-			
-			System.out.println(sum_arr[r] - ll);
+			System.out.println(sum_arr[end] - sum_arr[start-1 < 0 ? 0 : start-1]);
 			
 		}
 	}	
