@@ -44,7 +44,7 @@ public class Main_bj_15683_감시_서울_20반_박홍빈 {
 		System.out.println(answer);
 	}
 
-	// DFS로 상하좌우 4방향 중에서 cctv의 총 개수, r만큼을 순서대로 뽑는 순열을 구함 
+	// 상하좌우 4방향 중에서 cctv의 총 개수, r만큼을 순서대로 뽑는 순열을 구함 
 	public static void permutation(int depth, int r) {
 		if(depth == r) {
 			// Copy original 'map' array
@@ -75,15 +75,25 @@ public class Main_bj_15683_감시_서울_20반_박홍빈 {
 		int cctvNum = cctv.num;
 
 		if(cctvNum == 1) {
-			if(d == 0) watch(cctv, 0); // 상 
-			else if(d == 1) watch(cctv, 1); // 우 
-			else if(d == 2) watch(cctv, 2); // 하  
-			else if(d == 3) watch(cctv, 3); // 좌 
+			if(d == 0) {
+				watch(cctv, 0); // 상 
+			}
+			else if(d == 1) {
+				watch(cctv, 1); // 우 
+			}
+			else if(d == 2) {
+				watch(cctv, 2); // 하  
+			}
+			else if(d == 3) {
+				watch(cctv, 3); // 좌 
+			}
 		} else if(cctvNum == 2) {
 			if(d == 0 || d == 2) {
-				watch(cctv, 0); watch(cctv, 2); // 상하 
+				watch(cctv, 0); 
+				watch(cctv, 2); // 상하 
 			} else {
-				watch(cctv, 1); watch(cctv, 3); // 좌우 
+				watch(cctv, 1); 
+				watch(cctv, 3); // 좌우 
 			}
 		} else if(cctvNum == 3) {
 			if(d == 0) {
