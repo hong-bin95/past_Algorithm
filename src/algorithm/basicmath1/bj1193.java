@@ -9,10 +9,10 @@ public class bj1193 {
 		System.setIn(new FileInputStream("res/bj1193.txt"));
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		
-		int T = Integer.parseInt(br.readLine());
+		/*int T = Integer.parseInt(br.readLine());
 		
 		for(int tc = 1; tc <= T ; tc++) {
-					
+		*/			
 			int X = Integer.parseInt(br.readLine());
 			
 			int cnt = 1, c = 1;
@@ -41,7 +41,7 @@ public class bj1193 {
 				c += 1;
 			}
 
-		}
+//		}
 
 	}
 
